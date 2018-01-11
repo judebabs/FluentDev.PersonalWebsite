@@ -1,0 +1,18 @@
+﻿body {
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  #short-intro { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 401px) {
+  #short-intro { display: none; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  #long-intro { display: none; }  /* hide on small screens */
+}
+
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+  #long-intro { display: block; }   /* show on big screens */
+}
